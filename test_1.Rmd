@@ -16,3 +16,12 @@ for (i in 1:length(test)) {
 }
 ```
 
+We can make a function out of that loop!
+
+```{r}
+test_drive <- function(x) {
+  paste0("The test drive no.", x, " ", "is magnificent!")
+}
+test_drive(test)
+```
+
