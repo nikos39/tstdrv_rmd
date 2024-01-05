@@ -2,6 +2,7 @@
 title: "Test Drive for Git(Hub)"
 author: "nikos39"
 format: html
+embed-resources: true
 ---
 
 ## Quarto
